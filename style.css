@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  padding: 8px 20px;
+  flex:auto;
+  background-color: rgb(56, 66, 109);
+  color: white;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 40px;
+}
+
+ul {
+  list-style-type: none;          
+  display: flex;                  
+  gap: 16px;  
+  margin: 0 40px;                    
+}       
+
+.hero {
+  display: flex;          
+  height: 300px;                  
+  background-color: rgb(56, 66, 109);
+  color: white;
+  padding: 8px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+ display: flex;
+ flex:1;
+ height: 200px;
+ width: auto;
+ margin: 0 40px;
+ font-size: 16px;
+ flex-direction: column;
+ gap: 16px;
+}
+
+.text h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pic {
+  flex:1;
+  height: 200px;
+  width: auto;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}
+
+button{
+  background-color:lightblue;
+  color: white;
+  border: none;
+  margin: 0;
+  align-self: flex-start;
+  border-radius: 4px;
+}
+
+.dragon {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signal p{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.boxes {
+  display: flex;
+  flex:1;
+  gap: 64px;
+}
+
+.rectangle {
+    border-color: blue;
+    border-width: 4px;
+    border-style: solid;
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+}    
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex:auto;
+}
+
+.box p {
+    flex-wrap: wrap;
+    width: 160px;
+    opacity: 0.7;
+}
+
+.sword {
+  display: flex;
+  background-color: lightgray;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote {
+  height: 200px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 60px 0;
+  padding:  40px 60px 0;
+  font-size: 32px;
+  font-style: italic;
+}
+
+.author {
+  display: flex;
+  justify-content: end;
+  margin: 0 60px 40px;
+  padding: 0 60px 40px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+}
+
+.signup {
+  display: flex;
+  gap: 16px;
+  margin: 50px;
+  border-radius: 8px;
+  background-color: lightblue;
+  padding: 20px 40px;
+}
+
+.signup button {
+  align-self: center;
+  border-color: white;
+  border-style: solid;
+  padding: 0 8px;
+  border-width: 2px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(56, 66, 109);
+  color: white;
+}
